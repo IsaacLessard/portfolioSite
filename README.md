@@ -1,4 +1,4 @@
 #Portfolio site
 ```
-work in progress
+A work in progress
 ```
