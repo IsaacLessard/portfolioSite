@@ -7,32 +7,40 @@ a, a:visited {
   text-decoration: none;
   color: black; }
 
-hero {
-  position: relative;
+header {
   width: 100vw;
-  height: 50vh; }
-  hero h1 {
+  height: 75vh; }
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .hero h1 {
     width: 100vw;
     font-size: 10em; }
-  hero .top {
+  .hero .top {
     position: absolute;
     top: 15vh;
     left: 30vw; }
-  hero .bottom {
+  .hero .bottom {
     position: absolute;
     top: 30vh;
     left: 40vw; }
-  hero .tagline {
+  .hero .tagline {
     position: absolute;
     top: 60vh;
     left: 45vw;
     font-size: 3em; }
 
-ul {
-  list-style: none;
-  display: inline-flex; }
-
-nav li {
-  padding: 20px; }
+nav {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase; }
+  nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 auto; }
+  nav li {
+    padding: 3em; }
 
 /*# sourceMappingURL=style.css.map */
