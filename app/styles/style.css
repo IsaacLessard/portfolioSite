@@ -1,19 +1,32 @@
 body {
   font-family: 'Lato', sans-serif;
   padding: 0;
-  margin: 0;
-  display: flex; }
+  margin: 0; }
 
 a, a:visited {
   text-decoration: none;
   color: black; }
 
 hero {
-  width: 100vw; }
-
-h1 {
-  margin: 0 auto;
-  padding: 40px; }
+  position: relative;
+  width: 100vw;
+  height: 50vh; }
+  hero h1 {
+    width: 100vw;
+    font-size: 10em; }
+  hero .top {
+    position: absolute;
+    top: 15vh;
+    left: 30vw; }
+  hero .bottom {
+    position: absolute;
+    top: 30vh;
+    left: 40vw; }
+  hero .tagline {
+    position: absolute;
+    top: 60vh;
+    left: 45vw;
+    font-size: 3em; }
 
 ul {
   list-style: none;

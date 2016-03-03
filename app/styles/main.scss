@@ -2,7 +2,6 @@ body {
   font-family: 'Lato', sans-serif;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
 a, a:visited {
@@ -10,14 +9,33 @@ a, a:visited {
   color: black;
 }
 
+
 hero {
+  position: relative;
   width: 100vw;
+  height: 50vh;
+  h1 {
+    width: 100vw;
+    font-size: 10em;
+  }
+  .top {
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+  }
+  .bottom {
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+  }
+  .tagline {
+    position: absolute;
+    top: 60vh;
+    left: 45vw;
+    font-size: 3em;
+  }
 }
 
-h1 {
-  margin: 0 auto;
-  padding: 40px;
-}
 
 ul {
   list-style: none;
