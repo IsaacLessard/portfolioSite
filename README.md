@@ -1,4 +1,4 @@
 #Portfolio site
 ```
-Personal portfolio site
+Portfolio concept. White and black
 ```
